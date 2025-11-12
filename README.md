@@ -3,7 +3,7 @@
 [Português](#-português) | [English](#-english)
 
 ---
-## EN English
+## 🇬🇧 English
 
 ### 📖 Description
 
