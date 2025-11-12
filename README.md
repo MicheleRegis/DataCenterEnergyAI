@@ -4,7 +4,6 @@
 
 ---
 
-## 🇬🇧 English
 
 ### 📖 Description
 
