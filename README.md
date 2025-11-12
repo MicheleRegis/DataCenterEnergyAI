@@ -1,8 +1,117 @@
 # DataCenter Energy AI Dashboard
 
+[Português](#-português) | [English](#-english)
 
+---
 
-## 📖 Descrição
+## 🇬🇧 English
+
+### 📖 Description
+
+**DataCenter Energy AI** is an advanced, real-time dashboard for intelligent energy consumption monitoring in data centers. The project was designed to visualize and manage energy efficiency with a focus on **ISO 50001** compliance and optimizing Artificial Intelligence workloads.
+
+The dashboard provides a detailed comparison between two conceptual data center models:
+1.  **GreenCore (Terrestrial):** A high-efficiency data center located near Amsterdam, focusing on low PUE (Power Usage Effectiveness) and heat reuse.
+2.  **Poseidon Blue (Underwater):** An innovative, modular underwater data center off the coast of Portugal, which uses the ocean for natural cooling and is powered by 100% renewable energy.
+
+---
+
+### ✨ Key Features
+
+- **Real-Time Monitoring:** Dynamic visualization of metrics like PUE, total power consumption, AI load, and environmental conditions.
+- **Advanced Data Visualization:** Interactive and informative charts built with `Recharts` to analyze energy trends and distributions.
+- **Detailed Panels:** Dedicated tabs for:
+  - **Overview:** A complete summary of the data center's health and efficiency.
+  - **AI Workloads:** Analysis of energy consumption by AI workload type.
+  - **ISO 50001:** Tracking compliance status with the standard's requirements.
+  - **EnPI & Targets:** Trends of Energy Performance Indicators (EnPI) and targets.
+  - **Comparison:** A performance comparison between the terrestrial and underwater models.
+  - **System Controls:** A control panel for automations, operational status, and a 3D geographic view of the data centers.
+- **Responsive and Modern Design:** A fully responsive and aesthetically pleasing interface built with **Tailwind CSS**.
+- **Light & Dark Theme:** A toggle to switch between viewing modes, with user preference persistence.
+- **Fluid Animations:** Subtle transitions and animations with `Framer Motion` for an enhanced user experience.
+
+---
+
+### 🛠️ Technologies Used
+
+- **Frontend:** [React](https://reactjs.org/) (with Hooks)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Data Visualization:** [Recharts](https://recharts.org/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+
+---
+
+### 🚀 How to Run the Project
+
+Follow the steps below to set up and run the project in your local development environment.
+
+#### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 18 or higher)
+- [Yarn](https://yarnpkg.com/) (package manager)
+
+#### Installation
+
+1.  Clone the repository (or download the files):
+    ```bash
+    git clone <REPOSITORY_URL>
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd datacenter-energy-ai
+    ```
+3.  Install the dependencies:
+    ```bash
+    yarn install
+    ```
+
+#### Running in Development Mode
+
+1.  Start the development server:
+    ```bash
+    yarn dev
+    ```
+2.  Open your browser and go to `http://localhost:5173` (or the address shown in your terminal).
+
+---
+
+### 📂 File Structure
+
+The main project structure is organized as follows:
+
+```
+/
+├── public/
+│   └── ... # Static files
+├── src/
+│   ├── components/
+│   │   ├── DataCenterEnergyAI.tsx   # Main dashboard component
+│   │   └── SystemControls.tsx       # Component for the controls tab
+│   ├── App.tsx                      # Root application component
+│   ├── main.tsx                     # React application entry point
+│   └── index.css                    # Global styles and Tailwind config
+├── package.json
+└── README.md
+```
+
+---
+
+### 📄 License
+
+This project is distributed under the MIT License. See the `LICENSE` file for more details.
+
+<br>
+<br>
+
+---
+
+## 🇧🇷 Português
+
+### 📖 Descrição
 
 **DataCenter Energy AI** é um painel de controle avançado e em tempo real para o monitoramento inteligente do consumo de energia em data centers. O projeto foi desenvolvido para visualizar e gerenciar a eficiência energética com foco na conformidade com a norma **ISO 50001** e na otimização de cargas de trabalho de Inteligência Artificial.
 
@@ -12,7 +121,7 @@ O dashboard apresenta uma comparação detalhada entre dois modelos conceituais 
 
 ---
 
-## ✨ Funcionalidades Principais
+### ✨ Funcionalidades Principais
 
 - **Monitoramento em Tempo Real:** Visualização dinâmica de métricas como PUE, consumo total de energia, carga de IA e condições ambientais.
 - **Visualização de Dados Avançada:** Gráficos interativos e informativos construídos com `Recharts` para analisar tendências e distribuições de energia.
@@ -29,7 +138,7 @@ O dashboard apresenta uma comparação detalhada entre dois modelos conceituais 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 - **Frontend:** [React](https://reactjs.org/) (com Hooks)
 - **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
@@ -41,16 +150,16 @@ O dashboard apresenta uma comparação detalhada entre dois modelos conceituais 
 
 ---
 
-## 🚀 Como Executar o Projeto
+### 🚀 Como Executar o Projeto
 
 Siga os passos abaixo para configurar e executar o projeto em seu ambiente de desenvolvimento local.
 
-### Pré-requisitos
+#### Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (versão 18 ou superior)
 - [Yarn](https://yarnpkg.com/) (gerenciador de pacotes)
 
-### Instalação
+#### Instalação
 
 1.  Clone o repositório (ou baixe os arquivos):
     ```bash
@@ -65,7 +174,7 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente de de
     yarn install
     ```
 
-### Executando em Modo de Desenvolvimento
+#### Executando em Modo de Desenvolvimento
 
 1.  Inicie o servidor de desenvolvimento:
     ```bash
@@ -75,7 +184,7 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente de de
 
 ---
 
-## 📂 Estrutura de Arquivos
+### 📂 Estrutura de Arquivos
 
 A estrutura principal do projeto está organizada da seguinte forma:
 
@@ -96,6 +205,6 @@ A estrutura principal do projeto está organizada da seguinte forma:
 
 ---
 
-## 📄 Licença
+### 📄 Licença
 
 Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
